@@ -11,8 +11,7 @@ namespace Lively.Commandline
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args);        {
             _ = CommandLine.Parser.Default.ParseArguments<AppOptions, SetWallpaperOptions, CustomiseWallpaperOptions, CloseWallpaperOptions, ScreenSaverOptions, SeekWallpaperOptions, ScreenshotOptions>(args)
              .MapResult(
                  (AppOptions opts) => RunAppOptions(opts),
