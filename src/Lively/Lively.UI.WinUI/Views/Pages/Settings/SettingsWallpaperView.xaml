@@ -99,7 +99,7 @@
                     <TextBlock
                         x:Uid="WallpaperPluginGroup"
                         Margin="0,0,0,10"
-                        FontWeight="SemiBold" />
+                        FontWeight="SemiBold" /> ;
                     <controls:SettingsExpander x:Uid="VideoPlayer" IsExpanded="True">
                         <ComboBox MinWidth="{StaticResource SettingActionControlMinWidth}" SelectedIndex="{Binding SelectedVideoPlayerIndex, Mode=TwoWay}">
                             <ComboBoxItem>wmf</ComboBoxItem>
